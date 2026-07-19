@@ -115,25 +115,6 @@ Voice-Activated-Personal-Assistant/
 
 ---
 
-## Screenshots
-
-> Add screenshots of your application here.
-
-```text
-assets/
-├── home.png
-├── conversation.png
-└── reminder_demo.png
-```
-
-Example:
-
-```markdown
-![Home Screen](assets/home.png)
-```
-
----
-
 ## Installation
 
 ### 1. Clone the Repository
