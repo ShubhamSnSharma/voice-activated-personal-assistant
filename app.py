@@ -31,26 +31,27 @@ st.markdown(
     /* Sleek status indicator pill */
     .status-pill {
         display: inline-block;
-        padding: 0.35rem 0.85rem;
+        padding: 0.4rem 1.1rem;
         border-radius: 50px;
-        background-color: #F1F5F9;
-        color: #0F172A;
-        font-size: 0.9rem;
-        font-weight: 700;
-        border: 1px solid #E2E8F0;
+        background-color: rgba(128, 128, 128, 0.1);
+        color: inherit;
+        font-size: 0.92rem;
+        font-weight: 600;
+        border: 1px solid rgba(128, 128, 128, 0.2);
         margin-bottom: 1.5rem;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
     }
     
     /* Content containers */
     .container-box {
         padding: 1.2rem;
         border-radius: 12px;
-        background-color: #F8FAFC;
-        border: 1px solid #E2E8F0;
+        background-color: rgba(128, 128, 128, 0.06);
+        border: 1px solid rgba(128, 128, 128, 0.15);
         margin-bottom: 1rem;
         font-family: 'Inter', sans-serif;
-        color: #334155;
+        color: inherit;
+        box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
     }
     </style>
     """,
@@ -100,8 +101,9 @@ with st.sidebar:
     st.markdown("- **🧠 Conversation Memory** (Active)")
     st.markdown("- **🔍 Google Search Grounding** (Active)")
     st.markdown("- **🎙️ Speech Recognition** (Active)")
-    st.markdown("- **🔊 Text-to-Speech** *(Coming Soon)*")
-    st.markdown("- **⚡ Voice Commands** *(Coming Soon)*")
+    st.markdown("- **🔊 Text-to-Speech** (Active)")
+    st.markdown("- **⚡ Voice Commands & Reminders** (Active)")
+
     
     st.markdown("---")
     if st.button("Clear Conversation History", use_container_width=True):
